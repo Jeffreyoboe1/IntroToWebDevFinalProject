@@ -1,0 +1,86 @@
+/*
+Creator: Jeffrey S. Padgett
+Date Created: 12/22/2018
+Last Modified:
+*/
+
+header, footer {
+  background-color: darkgreen;
+  color: white;
+}
+
+header {
+  height: 150px;
+  padding: 20px 10px 30px 10px;
+}
+
+footer {
+  height: 125px;
+  padding: 20px 10px 30px 10px;
+}
+
+header h1 {
+  font-size: 4em;
+
+  font-family: 'Bilbo Swash Caps', cursive;
+  text-align: center;
+}
+
+header h2 {
+  margin-right: 10px;
+}
+
+footer {
+  text-align: center;
+}
+
+nav {
+  margin-top: 4px;
+  border-top: 2px solid darkgreen;
+  border-bottom: 2px groove darkgreen;
+  padding: 12px 0px;
+}
+
+nav a {
+  text-decoration: underline;
+  padding-top: 5px;
+  padding-bottom: 5px;
+
+}
+
+nav .nav-item {
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+nav .btn {
+  background-color: darkgreen;
+  color: #ffffe6;
+}
+
+nav a:visited {
+  color: lightgreen;
+}
+
+nav a:hover {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+/* to compensate for bootsrap default which removes the underline on hover */
+.nav-link:hover {
+  text-decoration: underline;
+
+}
+
+/* to modify for bootsrap default which keeps underline on active state */
+.nav-link:active {
+  text-decoration: none;
+}
+
+.jumbotron {
+  background-color: #ccffcc;
+  text-align: center;
+}
